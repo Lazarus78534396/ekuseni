@@ -1,0 +1,13 @@
+BoxLayout:
+	orientation: 'vertical'
+	MDToolbar:
+		id: mytoolbar
+		title: 'Ekseni'
+		elavation: 10
+		right_action_items: [['close',lambda x:app.stop()]]
+	ScrollView:
+        	
+		MDList:
+			id:container
+			size_hint_y: None
+			
